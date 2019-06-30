@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import cv2
-file_full_path = "/home/tianyu/software/IDEAProjects/computer_vision/cv1/lena.jpg"
+file_full_path = "/home/tianyu/software/IDEAProjects/computer_vision/lena.jpg"
 image = cv2.imread(file_full_path)
 
 #对图像做高斯平滑处理并显示
